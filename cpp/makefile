@@ -1,6 +1,6 @@
 
 build-ll:
-	g++ linked-list.cpp -o linked-list
+	g++ linked-list.cpp -o ./build/linked-list
 
 run-ll:
-	g++ linked-list.cpp -o linked-list && ./linked-list
+	g++ linked-list.cpp -o linked-list && ./build/linked-list
